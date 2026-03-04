@@ -258,7 +258,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 async def main():
-    token = os.getenv("BOT_TOKEN")
+    token = os.getenv("8672722368:AAFdDVyYOuz7Ebua0Ffv-daNI3m3D2_tfIk")
     if not token:
         print("❌ BOT_TOKEN is missing in environment variables.")
         return
